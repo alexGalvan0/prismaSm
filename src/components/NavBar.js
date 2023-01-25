@@ -13,10 +13,10 @@ export default function Navbar() {
                             <Link href="/">Posts</Link>
                         </li>
                         <li>
-                            <Link href="/drafts">Drafts</Link>
+                            <a href="/drafts">Drafts</a>
                         </li>
                         <li>
-                            <a href="/create">Add Post</a>
+                            <Link href="/create">Add Post</Link>
                         </li>
                     </ul>
                 </div>
